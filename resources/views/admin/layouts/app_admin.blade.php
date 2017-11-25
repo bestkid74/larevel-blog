@@ -10,6 +10,8 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
+    <!--<script src="https://use.fontawesome.com/11dd553ade.js"></script>-->
+
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
@@ -39,7 +41,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Блог</a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Категории</a></li>
+                            <li><a href="{{route('admin.category.index')}}">Категории</a></li>
                             <li><a href="#">Материалы</a></li>
                             <li><a href="#">Еще че-нить</a></li>
                             <li><a href="#">И еще че-нить</a></li>
