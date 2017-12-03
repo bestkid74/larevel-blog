@@ -10,7 +10,7 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!--<script src="https://use.fontawesome.com/11dd553ade.js"></script>-->
+    <script src="https://use.fontawesome.com/11dd553ade.js"></script>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
